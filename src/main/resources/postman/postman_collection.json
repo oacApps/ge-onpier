@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "7e9d25dd-df2d-4165-92b6-47fba734fdf6",
+		"name": "MMR",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1973208"
+	},
+	"item": [
+		{
+			"name": "onpier",
+			"item": [
+				{
+					"name": "a) returns all users who have actually borrowed at least one book",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/onpier/library/book/available",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"onpier",
+								"library",
+								"book",
+								"available"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "b) returns all non-terminated users who have not currently borrowed anything",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/onpier/library/book/available",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"onpier",
+								"library",
+								"book",
+								"available"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "e) returns all available (not borrowed) books",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9000/onpier/library/book/available",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9000",
+							"path": [
+								"onpier",
+								"library",
+								"book",
+								"available"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
